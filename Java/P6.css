@@ -1,0 +1,160 @@
+html, body, div, span, h1, h2, h3, p, a, img, li, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    line-height: 1;
+    font-family: 'Alata', sans-serif;
+    background:#dde8ee;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #57a4f5; 
+}
+
+
+/** header**/
+
+.item-menu {
+    width: auto;
+    margin-left: 125px;
+    color: #333333;
+    font-size: 29px;
+}
+
+.item-menu:hover {
+    color: #57a4f5; 
+}
+
+/** corpo**/
+
+.texto-azul {
+    color: #57a4f5; 
+    font-size: 40px;
+}
+
+
+ 
+main {  
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    width: auto;
+    height: 100%;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 30px;
+    background: white;
+    
+}
+
+/**conteudo**/
+
+#cybermind div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+
+#cybermind img {
+    width: 500px;
+    margin-left: 5%;
+}
+
+#eleicoes div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+
+#vAuto div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+
+#vAuto img {
+    width: 550px;
+    margin-left: 5%;
+}
+
+#vEstrategia div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+
+.exp {
+    font-size: 30px;
+}
+
+/**fotos**/
+
+#slider {
+    width: 350vw;
+    max-width: 550px;
+    height: 300vw;
+    max-height: 450px;
+    position: relative;
+    margin-left: 5%;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+
+#slider01 {
+    width: 350vw;
+    max-width: 550px;
+    height: 100vw;
+    max-height: 400px;
+    position: relative;
+    margin-left: 5%;
+}
+
+#slider01 img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider01 img.selected { 
+    opacity: 1;
+}
+
+
+/**rodapé**/
+
+footer {
+    background: #333333;
+    height: 60px;
+    padding: 2%;
+    color: white;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
