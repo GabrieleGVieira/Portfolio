@@ -1,0 +1,159 @@
+html, body, div, span, h1, h2, h3, p, a, img, li, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    line-height: 1;
+    font-family: 'Alata', sans-serif;
+    background:#dde8ee;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/** header**/
+
+.item-menu {
+    width: auto;
+    margin-left: 125px;
+    color: #333333;
+    font-size: 29px;
+}
+
+.item-menu:hover {
+    color: #57a4f5; 
+}
+
+/** corpo**/
+
+.texto-azul {
+    color: #57a4f5; 
+    font-size: 40px;
+}
+
+main {  
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    width: auto;
+    height: 100%;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 30px;
+    background: white;
+    
+}
+
+/**conteúdo**/
+
+#familia div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+   
+}
+
+#hobbies div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+        
+#atv div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+
+#atv p {
+    text-align: justify;
+}
+     
+
+/**rodapé**/
+
+footer {
+    background: #333333;
+    height: 60px;
+    padding: 2%;
+    color: white;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/**fotos**/
+
+#slider {
+    width: 600vw;
+    max-width: 600px;
+    height: 300vw;
+    max-height: 400px;
+    position: relative;
+    margin-left: 7%;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+
+#sliderHob {
+    width: 600vw;
+    max-width: 600px;
+    height: 150vw;
+    max-height: 400px;
+    position: relative;
+    margin-left: 7%;
+}
+
+#sliderHob  img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#sliderHob  img.selected { 
+    opacity: 1;
+}
+
+#sliderAtv {
+    width: 300vw;
+    max-width: 600px;
+    height: 150vw;
+    max-height: 400px;
+    position: relative;
+    margin-left: 7%;
+}
+
+#sliderAtv  img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+    
+}
+
+#sliderAtv img.selected { 
+    opacity: 1;
+}

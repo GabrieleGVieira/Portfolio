@@ -1,0 +1,122 @@
+html, body, div, span, h1, h2, h3, p, a, img, li, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    line-height: 1;
+    font-family: 'Alata', sans-serif;
+    background:#dde8ee;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/** header**/
+
+.item-menu {
+    width: auto;
+    margin-left: 125px;
+    color: #333333;
+    font-size: 29px;
+}
+
+.item-menu:hover {
+    color: #57a4f5; 
+}
+
+/** corpo**/
+
+.texto-azul {
+    color: #57a4f5; 
+    font-size: 45px;
+}
+
+ 
+main {  
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    width: auto;
+    height: 100%;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 30px;
+    background: white;
+    
+}
+
+/**conteúdo**/
+
+li {
+    list-style-type: none;
+}
+
+#academicos div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
+#academicos img {     
+    width: 350px;
+    margin-left: 2%;
+}
+
+
+#idioma div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
+#conhecimentos div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+#habilidades div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
+#cursos div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+i {
+    font-size: 30px;
+}
+
+
+/**rodapé**/
+
+footer {
+    background: #333333;
+    height: 60px;
+    padding: 2%;
+    color: white;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
