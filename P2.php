@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+require 'vendedor/autoload.php';
+?>
+
 <html>
 
 	 <head>
