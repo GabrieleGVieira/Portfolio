@@ -1,7 +1,7 @@
 <?php
 $nome = $_POST['nome']
 $email = $_POST['email']
-header('Location: /P2.html');
+header('Location: /P2.php');
 
 
 require 'vendedor/autoload.php';
