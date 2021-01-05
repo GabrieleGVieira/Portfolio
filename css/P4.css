@@ -14,6 +14,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #57a4f5; 
 }
 
 /** header**/
