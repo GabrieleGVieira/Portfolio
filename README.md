@@ -8,7 +8,7 @@ Demonstrar  os conhecimentos adquiridos através dos primeiros cursos básicos s
 
 ### Descrição do Projeto
 O projeto é um site aonde há informações adicionais sobre mim em diversas áreas como informações profissionais, educação, hobbies, etc.
-O site foi desenvolvido através dos conhecimentos adquiridos nos cursos sobre desenvolvimento web feitos na plataforma Programaria.org e Faculdade IV2, de forma gratuita e online, no qual foram apresentados conteúdos básicos de HTML, CSS e Javascript.
+O site foi desenvolvido através dos conhecimentos adquiridos nos cursos sobre desenvolvimento web feitos na plataforma Programaria.org e Faculdade IV2, de forma gratuita e online, no qual foram apresentados conteúdos básicos de HTML, CSS e Javascript, e através de buscas autônomas para me aprofundar no assunto.
 
 
 
