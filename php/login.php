@@ -17,6 +17,5 @@ $response = $sg->client->mail() ->send() ->post($mail);
 echo header('Location: '.$P2.html);;
 
 ?>
-</body>
-<html>
+
 
