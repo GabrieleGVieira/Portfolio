@@ -14,7 +14,7 @@ $apiKey = '';
 $sg = new \SendGrid($apiKey);
 
 $response = $sg->client->mail() ->send() ->post($mail);
-header('Location: '.$P2.html);;
+echo header('Location: '.$P2.html);;
 
 ?>
 </body>
