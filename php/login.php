@@ -15,7 +15,7 @@ $apiKey = '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
 $sg = new \SendGrid($apiKey);
 
 $response = $sg->client->mail() ->send() ->post($mail);
-header('Location: '.$P2.html);;
+header('Location: .$P2.html');;
 
 ?>
 
