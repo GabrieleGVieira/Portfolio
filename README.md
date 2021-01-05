@@ -1,5 +1,7 @@
 # PORTFÓLIO
 
+Status do Projeto: Em constante atualização ⚠️
+
 ### Objetivo do Projeto
 Demonstrar  os conhecimentos adquiridos através dos primeiros cursos básicos sobre desenvolvimento web e apresentar detalhadamente sobre quem eu sou, minha trajetória e conquistas.
 
