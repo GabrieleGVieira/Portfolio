@@ -1,6 +1,8 @@
 <?php
 $nome = $_POST['nome']
 $email = $_POST['email']
+header('Location: /P2.html');
+
 
 require 'vendedor/autoload.php';
 
@@ -15,7 +17,7 @@ $apiKey = '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
 $sg = new \SendGrid($apiKey);
 
 $response = $sg->client->mail() ->send() ->post($mail);
-header('Location: ../../P2.html');;
+
 
 ?>
 
