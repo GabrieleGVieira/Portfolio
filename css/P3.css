@@ -96,6 +96,13 @@ li {
     font-size: 30px;
 }
 
+#rec div {
+    align-items:  center;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+}
+
 h3 {
     font-size: 30px;
 }
